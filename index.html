@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? family= Roboto:wght@500;700;900 & display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  <body>
+    <header class="header-nav">
+      <div class="header-wrapper">
+        <div class="header-nav-wrapper">
+          <div class="header-logo">
+            <a href="index.html"
+              ><img src="/img/WebStudio.jpg" alt="logo"
+            /></a>
+          </div>
+          <ul class="navigation">
+            <li class="list"><a href="" class="link studio">Студія</a></li>
+            <li class="list">
+              <a href="" class="link portfolio">Портфоліо</a>
+            </li>
+            <li class="list"><a href="" class="link contacts">Контакти</a></li>
+          </ul>
+        </div>
+        <ul class="header-contacts">
+          <li class="list">
+            <a href="mailto:info@devstudio.com" class="link mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="list">
+            <a href="tel:380961111111" class="link tel">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-main">
+        <h2 class="header-title">Ефективні рішення для вашого бізнесу</h2>
+        <a href="" class="link order" data-modal-open>Замовити послугу</a>
+      </div>
+    </header>
+    <div class="wrapper">
+      <main class="main">
+        <section class="advantages">
+          <ul class="adantages-list">
+            <li class="list">
+              <div class="card-logo">
+                <svg class="icon">
+                  <use href="/img/icons.svg#antena"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-title">увага до деталей</h3>
+              <p class="advantages-discription">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+
+            <li class="list">
+              <div class="card-logo">
+                <svg class="icon">
+                  <use href="/img/icons.svg#clock"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-title">пунктуальність</h3>
+              <p class="advantages-discription">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+
+            <li class="list">
+              <div class="card-logo">
+                <svg class="icon">
+                  <use href="/img/icons.svg#diagrama"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-title">планування</h3>
+              <p class="advantages-discription">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+
+            <li class="list">
+              <div class="card-logo">
+                <svg class="icon">
+                  <use href="/img/icons.svg#astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="advantages-title">сучасні технології</h3>
+              <p class="advantages-discription">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="what-we-do">
+          <h2 class="what-we-do-title">Чим ми займаємося</h2>
+          <ul class="what-we-do-list">
+            <li class="list">
+              <img src="/img/box.png" alt="what we do photo" />
+              <p class="title">Десктопні додатки</p>
+            </li>
+            <li class="list">
+              <img src="/img/box2.png" alt="what we do photo" />
+              <p class="title">Мобільні додатки</p>
+            </li>
+            <li class="list">
+              <img src="/img/box3.png" alt="what we do photo" />
+              <p class="title">Дизайнерські рішення</p>
+            </li>
+          </ul>
+        </section>
+        <section class="our-team">
+          <h2 class="our-team-titlee">Наша команда</h2>
+          <div class="cards-wrapper">
+            <div class="our-team-card">
+              <img class="our-team-img" src="/img/igot.jpg" alt="User photo" />
+              <h3 class="our-team-title">Ігор Дем'яненко</h3>
+              <p class="our-team-job">Product Designer</p>
+            </div>
+
+            <div class="our-team-card">
+              <img class="our-team-img" src="/img/olga.jpg" alt="User photo" />
+              <h3 class="our-team-title">Ольга Рєпіна</h3>
+              <p class="our-team-job">Frontend Developer</p>
+            </div>
+
+            <div class="our-team-card">
+              <img
+                class="our-team-img"
+                src="/img/mykola.jpg"
+                alt="User photo"
+              />
+              <h3 class="our-team-title">Микола Тарасов</h3>
+              <p class="our-team-job">Marketing</p>
+            </div>
+
+            <div class="our-team-card">
+              <img
+                class="our-team-img"
+                src="/img/mykhailo.jpg"
+                alt="User photo"
+              />
+              <h3 class="our-team-title">Михайло Єрмаков</h3>
+              <p class="our-team-job">UI Designer</p>
+            </div>
+          </div>
+        </section>
+     <div class="backdMKrop is-hiden" data-backdrop>
+        <div class="modal" data-modal>
+            <button class="button-close" data-modal-close>X</button>
+            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <form action="#" class="reg">
+                <label for="name" class="reg-label">Ім'я</label>
+                <div class="reg-wraper">
+                    <svg class="reg-svg"> 
+                        <use href="/img/icon.svg#black-person"></use>
+                    </svg>
+                    <input type="name"
+                    name="user_name"
+                    id="name"
+                    required
+                    class="reg-input">
+                </div>
+
+                <label for="tel" class="reg-label">Телефон</label>
+                <div class="reg-wrapper">
+                  <svg class="reg-svg">
+                    <use href="/img/icon.svg#tel"></use>
+                  </svg>
+                  <input
+                    type="tel"
+                    name="user_tel"
+                    id="tel"
+                    required
+                    class="reg-input"
+                  />
+                </div>
+
+                <label for="email" class="reg-label">Пошта</label>
+                <div class="reg-wrapper">
+                  <svg class="reg-svg">
+                    <use href="/img/icon.svg#email"></use>
+                  </svg>
+                  <input
+                    type="email"
+                    name="user_email"
+                    id="email"
+                    required
+                    class="reg-input"
+                  />
+                </div>
+                  <label for="comment" class="label">Коментар</label>
+              <textarea name="" id="comment" cols="100%" rows="100%"></textarea>
+
+              <div class="check-wrapper">
+                <input type="checkbox" id="check" name="check" required />
+                <label for="check" class="check-title"
+                  >Погоджуюся з розсилкою та приймаю
+                  <a href="#" class="active-modal">Умови договору</a></label
+                >
+              </div>
+              <div class="btn-wrapper">
+                <button type="submit" class="btn-submit">Відправити</button>
+              </div>
+               
+            </form>
+        </div>
+      </div>
+    </main>
+    </div>
+    <footer class="footer">
+      <img class="footer-logo" src="/img/WebStudio.svg" alt="logo" />
+      <div class="footer-wrapper">
+        <p class="adress">м. Київ, пр-т Лесі Українки, 26</p>
+        <a class="tel" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="mail" href="tel:380961111111">+38 096 111 11 11</a>
+      </div>
+    </footer>
+   
+    <script src="/js/modal.js"></script>
+  </body>
+</html>

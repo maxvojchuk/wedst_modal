@@ -1,0 +1,471 @@
+.logo-part {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.studio,
+.portfolio,
+.contacts {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.studio:hover,
+.portfolio:hover,
+.contacts:hover,
+.mail:hover,
+.tel:hover {
+  color: #2196f3;
+}
+
+.contact-list {
+  font-family: "Roboto";
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.header-nav-wrapper {
+  display: flex;
+  gap: 90px;
+}
+
+.header-contacts {
+  display: flex;
+  gap: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-main {
+  height: 600px;
+  background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  width: 696px;
+  text-align: center;
+  color: #fff;
+}
+
+.order {
+  width: 216px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order:hover {
+  transform: scale(1.08);
+}
+
+.advantages-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.adantages-list li {
+  width: 270px;
+}
+
+.advantages-discription {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.adantages-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.what-we-do-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.what-we-do-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.what-we-do-list img {
+  width: 370px;
+  height: 294px;
+}
+.title {
+  width: 370px;
+  padding: 27px 0px;
+  background: rgba(47, 48, 58, 0.8);
+
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -10px;
+}
+.list {
+  position: relative;
+}
+.our-team {
+  background: #f5f4fa;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.our-team-img {
+  width: 270px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+
+.our-team-card {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.our-team-titlee {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.our-team-title {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-team-job {
+  margin-bottom: 30px;
+  color: #757575;
+  text-align: center;
+  letter-spacing: 0.48px;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  height: 252px;
+  flex-direction: column;
+  width: 1600px;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.tel,
+.mail {
+  color: #757575;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.adress {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  font-weight: 400;
+}
+
+.footer-logo {
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-logo {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  padding: 25px 102px;
+  fill: #212121;
+}
+.icon:hover {
+  fill: #2196f3;
+}
+
+/*modal*/
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000003e;
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 528px;
+  min-height: 581px;
+  padding: 40px;
+  background-color: #fff;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal.effect {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.reg {
+  padding-top: 12px;
+}
+
+.button-close {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-weight: 700;
+  font-size: 16.5px;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-close:hover {
+  color: #2196f3;
+  transform: scale(1.25);
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.reg-svg {
+  width: 18px;
+  height: 18px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reg-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  border-radius: 4px;
+  padding-left: 11px;
+  margin-bottom: 10px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus + .reg-wrapper {
+  border: 1px solid blue;
+}
+
+.reg-input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.reg-label {
+  color: #757575;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12px;
+  padding-bottom: 4px;
+}
+
+.reg-wrapper:focus-within {
+  border-color: #2196f3;
+}
+
+.reg-wrapper:focus-within .form-svg {
+  fill: #2196f3;
+}
+
+textarea {
+  width: 448px;
+  resize: none;
+  display: flex;
+  height: 120px;
+  padding: 12px 16px;
+
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea#comment:focus {
+  border-color: #2196f3;
+}
+
+.check-wrapper {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#check {
+  width: 16px;
+  height: 15px;
+  align-items: center;
+  color: #000;
+  outline: none;
+}
+
+.check-title {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.active-modal {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.btn-submit {
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px 52px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
